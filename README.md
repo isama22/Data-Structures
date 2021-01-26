@@ -35,8 +35,17 @@
 ## Matrix
 
 <hr>
+
 ### extra things 
+
 <br>
+
 #### promises in js 
+
 <br>
+
 #### 'this' in js 
+
+<br>
+
+#### regular expressions

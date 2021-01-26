@@ -24,7 +24,7 @@
 
 ## Hashing 
 
-** hash tables
+* hash tables
 
 <br>
 

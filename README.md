@@ -29,7 +29,18 @@
 <br>
 
 ## Graph
-
+class Graph { 
+    constructor() { 
+    this.nodeCount = 0;
+    this.nodeObj = {}; 
+  } 
+  createNode(node)  { 
+    this.nodeObj[node]=[];
+    this.nodeCount++;
+   } 
+  addChild(node,child){
+    node != child ? this.nodeObj[node].push(child) : ''
+  }
 <br>
 
 ## Matrix

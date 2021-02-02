@@ -41,6 +41,24 @@ class Graph {
   addChild(node,child){
     node != child ? this.nodeObj[node].push(child) : ''
   }
+
+    showConnections() {
+    const allNodes = Object.keys(this.nodeObj); 
+    for (let node of allNodes) {     
+       let nodeConnections = this.nodeObj[node];
+       let connections = ""; 
+       let vertex;
+      for (vertex of nodeConnections) {
+          connections += vertex + " ";
+        } 
+          if (connections === '') {
+              console.log(node + "->" + ' No children')
+          } else {
+              console.log(node + "-> " + connections);
+          }
+      } 
+     } 
+    } 
 <br>
 
 ## Matrix

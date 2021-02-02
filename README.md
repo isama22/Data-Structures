@@ -29,6 +29,7 @@
 <br>
 
 ## Graph
+``` javascript
 class Graph { 
     constructor() { 
     this.nodeCount = 0;
@@ -80,8 +81,9 @@ class Graph {
     myGraph.addChild('5', '5')
 
     myGraph.showConnections();
+```    
 <br>
-
+<a href="https://medium.com/@ziyoshams/graphs-in-javascript-cc0ed170b156" target="_blank">graph reference</a>
 ## Matrix
 
 <hr>

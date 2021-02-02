@@ -59,6 +59,27 @@ class Graph {
       } 
      } 
     } 
+
+        const myGraph = new Graph();
+
+    myGraph.createNode(1)
+    myGraph.createNode(2)
+    myGraph.createNode(3)
+    myGraph.createNode(4)
+    myGraph.createNode(5)
+    myGraph.createNode(6)
+
+    myGraph.addChild('1', '2')
+    myGraph.addChild('1', '3')
+    myGraph.addChild('1', '4')
+    myGraph.addChild('2', '5')
+    myGraph.addChild('3', '6')
+    myGraph.addChild('4', '3')
+    myGraph.addChild('4', '6')
+    myGraph.addChild('5', '6')
+    myGraph.addChild('5', '5')
+
+    myGraph.showConnections();
 <br>
 
 ## Matrix

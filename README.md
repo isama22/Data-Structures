@@ -25,6 +25,7 @@
 ## Hashing 
 
 * hash tables
+hash tables allow instant look up, which make them faster and less costly in terms of big O notation 
 
 <br>
 

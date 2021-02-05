@@ -103,3 +103,6 @@ myGraph.showConnections();
 
 #### regular expressions
 ^ denotes things to ignore
+
+<hr>
+### notes on react

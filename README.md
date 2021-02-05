@@ -102,3 +102,4 @@ myGraph.showConnections();
 <br>
 
 #### regular expressions
+^ denotes things to ignore

@@ -288,6 +288,9 @@ myGraph.showConnections();
 
 #### regular expressions
 ^ denotes things to ignore
+/g = global
+/i = ignore case / case insensitive
+.match() is pretty useful 
 
 <hr>
 
@@ -298,8 +301,11 @@ some resources
 * <a href="https://obedparla.com/code/a-visual-guide-to-react-mental-models/" target="_blank">a visual guide to react mental models</a>
 * <a href="https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/" target="_blank">react cheat sheet</a>
 * <a href="https://snook.ca/archives/javascript/difficulty-with-react" target="_blank">why did i have difficulty learning react</a>
+
 *<a href="https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552" target="_blank">13 things to know about react</a>
+
 *<a href="https://codeburst.io/image-uploading-using-react-and-node-to-get-the-images-up-c46ec11a7129" target="_blank">mern image upload</a>
+
 *<a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution resource :: intro</a>

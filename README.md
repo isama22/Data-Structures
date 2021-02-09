@@ -269,6 +269,7 @@ myGraph.showConnections();
 ```    
 <br>
 <a href="https://medium.com/@ziyoshams/graphs-in-javascript-cc0ed170b156" target="_blank">graph reference</a>
+
 ## Matrix
 
 <hr>

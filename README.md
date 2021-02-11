@@ -195,7 +195,9 @@ console.log(ll)
 
 <br>
 
-## Binary Tree
+## Binary search
+* depth first search
+* breadth first search 
 
 <br>
 

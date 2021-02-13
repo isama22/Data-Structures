@@ -349,3 +349,22 @@ function formatPhoneNumber(numbers) {
 }
 console.log(formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
 ```
+* simple way to format time 
+```javascript
+function simpleTimer(seconds) {
+  let hours = Math.floor(seconds/3600)
+    .toString()
+    .padStart(2, 0);
+  let minutes = Math.floor((seconds%3600) / 60)
+    .toString()
+    .padStart(2, 0);
+  let sec = Math.floor(seconds % 60)
+    .toString()
+    .padStart(2, 0);
+  return `${hours}:${minutes}:${sec}`;
+}
+console.log(simpleTimer(1)); //"00:00:00"
+console.log(simpleTimer(60)); //"00:01:00"
+console.log(simpleTimer(59)); //"00:00:59"
+console.log(simpleTimer(3599)); //➞ "00:59:59"
+```

@@ -368,3 +368,4 @@ console.log(simpleTimer(60)); //"00:01:00"
 console.log(simpleTimer(59)); //"00:00:59"
 console.log(simpleTimer(3599)); //➞ "00:59:59"
 ```
+* <strong>arr.map(Number)</strong> is a fast way to convert an array of string numbers into just numbers 

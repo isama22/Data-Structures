@@ -310,6 +310,10 @@ console.log(a);         // prints 'global'
 
 <br>
 
+### writing classes 
+
+<hr>
+
 #### regular expressions
 ^ denotes things to ignore when in [] brackets 
 <br>

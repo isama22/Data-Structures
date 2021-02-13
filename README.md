@@ -310,7 +310,7 @@ console.log(a);         // prints 'global'
 
 <br>
 
-### writing classes 
+#### writing classes 
 
 <hr>
 
@@ -356,7 +356,7 @@ some resources
 
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
-<a href="https://www.firsttimersonly.com/" target="_blank">open source contribution resource :: intro</a>
+<a href="https://www.firsttimersonly.com/" target="_blank">open source contribution : for beginners</a>
 
 <hr>
 

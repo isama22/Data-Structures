@@ -311,3 +311,23 @@ some resources
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution resource :: intro</a>
+
+
+## vanilla js tips
+* urnary operator ( + ) works similarly to parseInt()
+* number to binary 
+``` javascript 
+return(num >>> 0).toString(2)
+```
+* last item of an array 
+``` javascript 
+arr[arr.length - 1]
+```
+* making an object out of two arrays where {arr1[0] : arr2[0]} {key: value}
+```javascript
+function jobs(names, jobs){
+  return Object.assign(...names.map((k, i) => ({[k]: jobs[i]})))
+}
+console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
+```
+* 

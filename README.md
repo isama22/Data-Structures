@@ -321,7 +321,7 @@ console.log(a);         // prints 'global'
 <br>
 /i = ignore case / case insensitive
 <br>
-.match() is pretty useful 
+.match() / .test() are pretty useful 
 <br>
 ^ marks the start of a string
 <br>

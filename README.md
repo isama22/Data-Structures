@@ -330,4 +330,10 @@ function jobs(names, jobs){
 }
 console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
 ```
-* 
+* remove duplicates from an array by using spread syntax and the Set constructor 
+```javascript
+function set(arr){
+  return [...new Set(arr)]
+}
+console.log(set([1,1,3]))
+```

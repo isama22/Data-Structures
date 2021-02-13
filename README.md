@@ -373,3 +373,8 @@ console.log(simpleTimer(3599)); //➞ "00:59:59"
 * reduce needs an initial value to catch edge cases where there is no inital value
 ** (when you see a comma ', 0' at the end of reduce functions)
 *** 0 for addition, 1 for multiplication, or an empty string for concatenation
+
+* create a sequence of numbers from 0-n 
+```javascript
+const sequence = Array.from({length: num}, (_, i) => i + 1)
+```

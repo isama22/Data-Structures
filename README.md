@@ -378,3 +378,11 @@ console.log(simpleTimer(3599)); //➞ "00:59:59"
 ```javascript
 const sequence = Array.from({length: num}, (_, i) => i + 1)
 ```
+
+* removes falsey elements by checking if they exist rather than ‘=== falsey’
+```javascript
+function compact(arr) {
+	return arr.filter(item => !item)
+}
+console.log(compact([0, 1, false, 2, "", 3]))
+```

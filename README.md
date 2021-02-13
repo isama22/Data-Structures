@@ -337,3 +337,15 @@ function set(arr){
 }
 console.log(set([1,1,3]))
 ```
+
+* format an array of numbers into phone number syntax // way to swap out each item of an array in place. this walks the array and swaps every index out 
+```javascript
+function formatPhoneNumber(numbers) {
+  let arr = "(XXX) XXX-XXXX".split('');
+  numbers.forEach(n => {
+    arr[arr.indexOf('X')] = n;
+  });
+  return arr.join('');
+}
+console.log(formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+```

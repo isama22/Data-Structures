@@ -289,14 +289,31 @@ myGraph.showConnections();
 <br>
 
 #### regular expressions
-^ denotes things to ignore
+^ denotes things to ignore when in [] brackets 
+<br>
 /g = global
+<br>
 /i = ignore case / case insensitive
+<br>
 .match() is pretty useful 
+<br>
+^ marks the start of a string
+<br>
+$ marks the end of a string 
+<br>
+\d = [0-9]
+<br>
+\s = white space
+<br>
+[a-m] = a through m 
+<br>
+{5} = length is 5 
+
+regex kinda feels like learning smoke signals or morse code as a boyscout or something 
 
 <hr>
 
-### notes on react
+## notes on react
 
 some resources
 * <a href="https://bitsofco.de/what-i-wish-i-knew-about-react/" target="_blank">what i wish i knew about react</a>
@@ -312,6 +329,7 @@ some resources
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution resource :: intro</a>
 
+<hr>
 
 ## vanilla js tips
 * urnary operator ( + ) works similarly to parseInt()

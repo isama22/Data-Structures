@@ -277,7 +277,29 @@ myGraph.showConnections();
 <hr>
 
 ### extra things 
+<br>
 
+### closures 
+closures are functions that access info outside of their normal scope
+```javascript
+let a = 'global';
+  function outer() {
+    let b = 'outer';
+    function inner() {
+      let c = 'inner'
+      console.log(c);   // prints 'inner'
+      console.log(b);   // prints 'outer'
+      console.log(a);   // prints 'global'
+    }
+    console.log(a);     // prints 'global'
+    console.log(b);     // prints 'outer'
+    inner();
+  }
+outer();
+console.log(a);         // prints 'global'
+```
+<br>
+<a href="https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda" target="_blank"></a>
 <br>
 
 #### promises in js 
@@ -331,7 +353,7 @@ some resources
 
 <hr>
 
-## vanilla js tips
+## things to remember with vanilla js 
 * urnary operator ( + ) works similarly to parseInt()
 * number to binary 
 ``` javascript 
@@ -389,7 +411,9 @@ console.log(simpleTimer(3599)); //➞ "00:59:59"
 * <strong>arr.map(Number)</strong> is a fast way to convert an array of string numbers into just numbers 
 
 * reduce needs an initial value to catch edge cases where there is no inital value
+
 ** (when you see a comma ', 0' at the end of reduce functions)
+
 *** 0 for addition, 1 for multiplication, or an empty string for concatenation
 
 * create a sequence of numbers from 0-n 

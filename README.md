@@ -299,7 +299,7 @@ outer();
 console.log(a);         // prints 'global'
 ```
 <br>
-<a href="https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda" target="_blank"></a>
+<a href="https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda" target="_blank">blog article on closures</a>
 <br>
 
 #### promises in js 
@@ -330,7 +330,10 @@ $ marks the end of a string
 [a-m] = a through m 
 <br>
 {5} = length is 5 
-
+<br>
+<a href="http://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf" target="_blank">regex cheatsheet</a>
+||
+<a href="https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4" target="_blank">beginners guide</a>
 regex kinda feels like learning smoke signals or morse code as a boyscout or something 
 
 <hr>

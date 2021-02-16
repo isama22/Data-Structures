@@ -303,8 +303,10 @@ console.log(a);         // prints 'global'
 <br>
 
 #### promises in js 
-
+<A href="https://www.javascripttutorial.net/es6/javascript-promises/" target="_blank">resource</a>
 <br>
+promises have three states. pending, fulfilled, and rejected.
+
 
 #### 'this' in js 
 
@@ -357,6 +359,10 @@ some resources
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution : for beginners</a>
+<hr>
+* state
+* props
+
 
 <hr>
 

@@ -353,6 +353,7 @@ some resources
 * <a href="https://snook.ca/archives/javascript/difficulty-with-react" target="_blank">why did i have difficulty learning react</a>
 
 * <a href="https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552" target="_blank">13 things to know about react</a>
+* https://reactresources.com/
 
 * <a href="https://codeburst.io/image-uploading-using-react-and-node-to-get-the-images-up-c46ec11a7129" target="_blank">mern image upload</a>
   * https://github.com/IAMOTZ/node-react-cloudinary

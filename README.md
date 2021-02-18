@@ -355,7 +355,8 @@ some resources
 * <a href="https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552" target="_blank">13 things to know about react</a>
 
 * <a href="https://codeburst.io/image-uploading-using-react-and-node-to-get-the-images-up-c46ec11a7129" target="_blank">mern image upload</a>
-
+  * https://github.com/IAMOTZ/node-react-cloudinary
+  * https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution : for beginners</a>

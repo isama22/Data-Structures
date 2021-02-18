@@ -360,6 +360,7 @@ some resources
   * https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
   * https://medium.com/swlh/integrating-an-image-upload-system-into-a-react-app-with-node-js-express-js-and-multer-d5ab5c4d1da8
   * https://dev.to/austinbrownopspark/how-to-upload-and-serve-photos-using-react-node-express-36ii
+  *https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution : for beginners</a>

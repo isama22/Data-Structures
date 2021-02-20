@@ -367,6 +367,7 @@ some resources
 <hr>
 * state
 * props
+* lifecycle
 
 
 <hr>

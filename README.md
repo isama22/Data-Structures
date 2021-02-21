@@ -454,3 +454,8 @@ function compact(arr) {
 }
 console.log(compact([0, 1, false, 2, "", 3]))
 ```
+
+<hr>
+## seperation of ceoncerns 
+<br>
+## agile development

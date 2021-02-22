@@ -373,7 +373,7 @@ some resources
 * controlled vs uncontrolled input 
 * hooks 
 * class vs function components 
-https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486
+* <a href="https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486" target="_blank" >react interview questions</a>
 
 
 

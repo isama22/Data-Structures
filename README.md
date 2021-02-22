@@ -460,8 +460,10 @@ console.log(compact([0, 1, false, 2, "", 3]))
 <hr>
 
 # general resources 
-https://www.google.com/search?sxsrf=ALeKk028i-SDxWgxjCG2ljYyNCPjm7Z4ww:1612555300723&q=grokking+the+coding+interview&sa=X&ved=2ahUKEwi0-oTPxNPuAhUDGc0KHZ4aD9AQ1QIoBHoECAcQBQ&biw=1440&bih=685
+<a href="https://www.google.com/search?sxsrf=ALeKk028i-SDxWgxjCG2ljYyNCPjm7Z4ww:1612555300723&q=grokking+the+coding+interview&sa=X&ved=2ahUKEwi0-oTPxNPuAhUDGc0KHZ4aD9AQ1QIoBHoECAcQBQ&biw=1440&bih=685" target="_blank" >grokking the coding interview tab</a>
+
 ## seperation of concerns 
-https://rkay301.medium.com/programming-fundamentals-part-5-separation-of-concerns-software-architecture-f04a900a7c50
+<a href="https://rkay301.medium.com/programming-fundamentals-part-5-separation-of-concerns-software-architecture-f04a900a7c50" target="_blank" >medium article on this</a>
+
 <br>
 ## agile development

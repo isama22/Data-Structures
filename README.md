@@ -309,6 +309,7 @@ promises have three states. pending, fulfilled, and rejected.
 
 
 #### 'this' in js 
+<a href="http://www.thatjsdude.com/jsConcepts/concepts/this.html" target="_blank">that js dude</a>
 
 <br>
 
@@ -361,7 +362,8 @@ some resources
   * https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
   * https://medium.com/swlh/integrating-an-image-upload-system-into-a-react-app-with-node-js-express-js-and-multer-d5ab5c4d1da8
   * https://dev.to/austinbrownopspark/how-to-upload-and-serve-photos-using-react-node-express-36ii
-  *https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
+  * https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
+  * https://www.youtube.com/watch?v=8r1Pb6Ja90o
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 
 <a href="https://www.firsttimersonly.com/" target="_blank">open source contribution : for beginners</a>
@@ -372,6 +374,7 @@ some resources
 * controlled vs uncontrolled input 
 * hooks 
 * class vs function components 
+https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486
 
 
 
@@ -456,6 +459,10 @@ console.log(compact([0, 1, false, 2, "", 3]))
 ```
 
 <hr>
-## seperation of ceoncerns 
+
+# general resources 
+https://www.google.com/search?sxsrf=ALeKk028i-SDxWgxjCG2ljYyNCPjm7Z4ww:1612555300723&q=grokking+the+coding+interview&sa=X&ved=2ahUKEwi0-oTPxNPuAhUDGc0KHZ4aD9AQ1QIoBHoECAcQBQ&biw=1440&bih=685
+## seperation of concerns 
+https://rkay301.medium.com/programming-fundamentals-part-5-separation-of-concerns-software-architecture-f04a900a7c50
 <br>
 ## agile development

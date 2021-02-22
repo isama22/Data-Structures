@@ -359,10 +359,9 @@ some resources
 
 * <a href="https://codeburst.io/image-uploading-using-react-and-node-to-get-the-images-up-c46ec11a7129" target="_blank">mern image upload</a>
   * <a href="https://github.com/IAMOTZ/node-react-cloudinary" target="_blank" >node - react - cloudinary</a>
-  * <a href="https://codeburst.io/" target="_blank" >react image upload - code burst (that kitten tutorial</a>react-image-upload-with-kittens-cc96430eaece
+  * <a href="https://codeburst.io/react-image-upload-with-kittens-cc96430eaece" target="_blank" >react image upload - code burst (that kitten tutorial</a>
   * <a href="https://medium.com/swlh/integrating-an-image-upload-system-into-a-react-app-with-node-js-express-js-and-multer-d5ab5c4d1da8" target="_blank" >image upload with multer</a>
   * <a href="https://dev.to/austinbrownopspark/how-to-upload-and-serve-photos-using-react-node-express-36ii" target="_blank" >another image upload; MERN</a>
-  * https://codeburst.io/react-image-upload-with-kittens-cc96430eaece
   * https://www.youtube.com/watch?v=8r1Pb6Ja90o
 * <a href="https://www.jamesqquick.com/courses/design-and-build-a-chat-app-with-socket-io" target="_blank">build a chat app with socket</a>
 

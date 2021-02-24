@@ -468,3 +468,4 @@ console.log(compact([0, 1, false, 2, "", 3]))
 <br>
 
 ## agile development
+<a href="https://agilemanifesto.org/" target="_blank">agile manifesto</a>

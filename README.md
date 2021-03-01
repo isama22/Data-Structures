@@ -453,7 +453,16 @@ function compact(arr) {
 }
 console.log(compact([0, 1, false, 2, "", 3]))
 ```
-
+* find how many pairs of brackets there are without recursion 
+``` javascript
+function measureDepth(arr) {
+  return JSON.stringify(arr).length / 2;
+}
+measureDepth([]); //➞ 1
+measureDepth([[]]); //➞ 2
+measureDepth([[[]]]); // ➞ 3
+measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
+```
 <hr>
 
 # general resources 

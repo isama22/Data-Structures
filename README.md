@@ -445,7 +445,14 @@ console.log(simpleTimer(3599)); //➞ "00:59:59"
 ```javascript
 const sequence = Array.from({length: num}, (_, i) => i + 1)
 ```
-
+* create a series of numbers within a range 
+```javascript
+function  range(start, end) {
+return sequence = Array.from({length: end-start+1}, (_, i) => start + i)
+}
+range(1,5)
+range(2,5)
+```
 * removes falsey elements by checking if they exist rather than ‘=== falsey’
 ```javascript
 function compact(arr) {

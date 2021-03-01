@@ -352,6 +352,7 @@ some resources
 * <a href="https://reactresources.com/topics/how-to-learn-react" target="_blank" >How to Learn React</a>
 * <a href="https://bitsofco.de/what-i-wish-i-knew-about-react/" target="_blank">what i wish i knew about react</a>
 * <a href="https://obedparla.com/code/a-visual-guide-to-react-mental-models/" target="_blank">a visual guide to react mental models</a>
+* <a href="https://overreacted.io/a-complete-guide-to-useeffect/" target="_blank">complete guide to use effect // hooks</a>
 * <a href="https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/" target="_blank">react cheat sheet</a>
 * <a href="https://snook.ca/archives/javascript/difficulty-with-react" target="_blank">why did i have difficulty learning react</a>
 * <a href="https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552" target="_blank">13 things to know about react</a>

@@ -350,14 +350,11 @@ regex kinda feels like learning smoke signals or morse code as a boyscout or som
 some resources
 
 * <a href="https://reactresources.com/topics/how-to-learn-react" target="_blank" >How to Learn React</a>
-
 * <a href="https://bitsofco.de/what-i-wish-i-knew-about-react/" target="_blank">what i wish i knew about react</a>
 * <a href="https://obedparla.com/code/a-visual-guide-to-react-mental-models/" target="_blank">a visual guide to react mental models</a>
 * <a href="https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/" target="_blank">react cheat sheet</a>
 * <a href="https://snook.ca/archives/javascript/difficulty-with-react" target="_blank">why did i have difficulty learning react</a>
-
 * <a href="https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552" target="_blank">13 things to know about react</a>
-
 * <a href="https://codeburst.io/image-uploading-using-react-and-node-to-get-the-images-up-c46ec11a7129" target="_blank">mern image upload</a>
   * <a href="https://github.com/IAMOTZ/node-react-cloudinary" target="_blank" >node - react - cloudinary</a>
   * <a href="https://codeburst.io/react-image-upload-with-kittens-cc96430eaece" target="_blank" >react image upload - code burst (that kitten tutorial</a>
@@ -376,8 +373,6 @@ some resources
 * hooks 
 * class vs function components 
 * <a href="https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486" target="_blank" >react interview questions</a>
-
-
 
 <hr>
 

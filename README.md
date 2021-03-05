@@ -379,7 +379,7 @@ some resources
 <br>
 some core principles:
 * each component should only handle one single task, if it grows, it should be decomposed into smaller subcomponents
-* <strong>state</strong> is handled within the component ( like a variable inside of a function) and <strong>props</strong>are passed <em>to</em> a component (like parameters/arguments for functions)
+* <strong>state</strong> is handled within the component ( like a variable inside of a function) and <strong>props</strong>are passed <em>to</em> a component (like parameters/arguments for functions) | <a href="https://github.com/uberVU/react-guide/blob/master/props-vs-state.md">should this component have props or state?</a> | <a href="https://lucybain.com/blog/2016/react-state-vs-pros/">similar article</a>
 <hr>
 
 ## things to remember with vanilla js 

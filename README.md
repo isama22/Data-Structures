@@ -376,7 +376,9 @@ some resources
 * hooks -- allow you to use state in function components without needing to rewrite them as classes
 * class vs function components 
 * <a href="https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486" target="_blank" >react interview questions</a>
-
+<br>
+some core principles:
+* each component should only handle one single task, if it grows, it should be decomposed into smaller subcomponents
 <hr>
 
 ## things to remember with vanilla js 

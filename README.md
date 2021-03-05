@@ -379,6 +379,7 @@ some resources
 <br>
 some core principles:
 * each component should only handle one single task, if it grows, it should be decomposed into smaller subcomponents
+* <strong>state</strong> is handled within the component ( like a variable inside of a function) and <strong>props</strong>are passed <em>to</em> a component (like parameters/arguments for functions)
 <hr>
 
 ## things to remember with vanilla js 

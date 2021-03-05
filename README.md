@@ -373,7 +373,7 @@ some resources
 * props
 * lifecycle
 * controlled vs uncontrolled input 
-* hooks 
+* hooks -- allow you to use state in function components without needing to rewrite them as classes
 * class vs function components 
 * <a href="https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486" target="_blank" >react interview questions</a>
 

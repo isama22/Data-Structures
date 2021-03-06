@@ -310,8 +310,12 @@ promises have three states. pending, fulfilled, and rejected.
 
 #### 'this' in js 
 <a href="http://www.thatjsdude.com/jsConcepts/concepts/this.html" target="_blank">that js dude</a>
+https://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/
 
 <br>
+
+#### arrow functions 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 #### writing classes 
 
@@ -374,7 +378,7 @@ some resources
 * lifecycle
 * controlled vs uncontrolled input 
 * hooks -- allow you to use state in function components without needing to rewrite them as classes
-* class vs function components 
+* class vs functional components  - classes declare and hold state, functions have state passed down to them as props
 * <a href="https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486" target="_blank" >react interview questions</a>
   
 <br>
@@ -382,9 +386,13 @@ some resources
 some core principles:
 
 * each component should only handle one single task, if it grows, it should be decomposed into smaller subcomponents
+* to remember things, components use state
 * <strong>state</strong> is handled within the component ( like a variable inside of a function) and <strong>props</strong> are passed <em>to</em> a component (like parameters/arguments for functions) 
 * | <a href="https://github.com/uberVU/react-guide/blob/master/props-vs-state.md">should this component have props or state?</a> | <a href="https://lucybain.com/blog/2016/react-state-vs-pros/">>>similar article</a>
 * <a href="https://reactjs.org/docs/thinking-in-react.html">thinking in react</a>
+* when you use setState() inside of an onClick() inside a function's render method - it asks react to re-render the component. including all of it's children
+* to have two child componenets talk to each other you need to have state stored for them in the parent component. the parent can pass state down as props to them and this keeps them all in sync 
+* children cannot change state directly, since state is private to the component it’s declared in. so you create functions that the parent will hand down to the child, and the child can call that function (this creates controlled components, the children don’t maintain state themselves, it’s in the parent, the parent has full control over them)
 <hr>
 
 ## things to remember with vanilla js 

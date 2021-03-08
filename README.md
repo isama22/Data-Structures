@@ -393,6 +393,7 @@ some core principles:
 * when you use setState() inside of an onClick() inside a function's render method - it asks react to re-render the component. including all of it's children
 * to have two child componenets talk to each other you need to have state stored for them in the parent component. the parent can pass state down as props to them and this keeps them all in sync 
 * children cannot change state directly, since state is private to the component it’s declared in. so you create functions that the parent will hand down to the child, and the child can call that function (this creates controlled components, the children don’t maintain state themselves, it’s in the parent, the parent has full control over them)
+* component names start with capital letters so that react knows to render a component and not an html elemnt 
 <hr>
 
 ## things to remember with vanilla js 
@@ -445,6 +446,8 @@ function simpleTimer(seconds) {
     .padStart(2, 0);
   return `${hours}:${minutes}:${sec}`;
 }
+
+
 console.log(simpleTimer(1)); //"00:00:00"
 console.log(simpleTimer(60)); //"00:01:00"
 console.log(simpleTimer(59)); //"00:00:59"
@@ -501,3 +504,6 @@ measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
 
 ## agile development
 <a href="https://agilemanifesto.org/" target="_blank">agile manifesto</a>
+
+
+more resources on my notion in the react wiki --

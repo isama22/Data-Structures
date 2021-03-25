@@ -493,6 +493,16 @@ measureDepth([[]]); //➞ 2
 measureDepth([[[]]]); // ➞ 3
 measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
 ```
+# objects 
+
+* adding a key
+* adding a value to a specific key
+* removing a key
+* removing a value 
+* removing a k:v pair 
+  * from the beginning
+  * from the end
+  * from a specific index
 <hr>
 
 # general resources 

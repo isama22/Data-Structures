@@ -351,7 +351,7 @@ regex kinda feels like learning smoke signals or morse code as a boyscout or som
 
 ## notes on react
 
-some resources
+some resources ((check my notion react wiki for more, esp career resources))
 
 * <a href="https://reactresources.com/topics/how-to-learn-react" target="_blank" >How to Learn React</a>
 * <a href="https://bitsofco.de/what-i-wish-i-knew-about-react/" target="_blank">what i wish i knew about react</a>

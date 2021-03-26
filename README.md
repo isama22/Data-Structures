@@ -415,6 +415,8 @@ function set(arr){
 }
 console.log(set([1,1,3]))
 ```
+* <strong>arr.map(Number)</strong> is a fast way to convert an array of string numbers into just numbers 
+
 ### objects:
 * making an object out of two arrays where {arr1[0] : arr2[0]} {key: value}
 ```javascript
@@ -423,7 +425,7 @@ function jobs(names, jobs){
 }
 console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
 ```
-
+### special misc:
 * format an array of numbers into phone number syntax // way to swap out each item of an array in place. this walks the array and swaps every index out 
 ```javascript
 function formatPhoneNumber(numbers) {
@@ -456,8 +458,11 @@ console.log(simpleTimer(60)); //"00:01:00"
 console.log(simpleTimer(59)); //"00:00:59"
 console.log(simpleTimer(3599)); //➞ "00:59:59"
 ```
-* <strong>arr.map(Number)</strong> is a fast way to convert an array of string numbers into just numbers 
-
+* create a sequence of numbers from 0-n 
+```javascript
+const sequence = Array.from({length: num}, (_, i) => i + 1)
+```
+### methods: 
 * reduce needs an initial value to catch edge cases where there is no inital value
 
   * (when you see a comma ', 0' at the end of reduce functions)
@@ -466,10 +471,6 @@ console.log(simpleTimer(3599)); //➞ "00:59:59"
   ```
   * 0 for addition, 1 for multiplication, or an empty string for concatenation
 
-* create a sequence of numbers from 0-n 
-```javascript
-const sequence = Array.from({length: num}, (_, i) => i + 1)
-```
 * create a series of numbers within a range 
 ```javascript
 function  range(start, end) {

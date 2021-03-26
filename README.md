@@ -513,6 +513,3 @@ measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
 
 ## agile development
 <a href="https://agilemanifesto.org/" target="_blank">agile manifesto</a>
-
-
-more resources on my notion in the react wiki --

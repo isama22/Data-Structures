@@ -445,6 +445,10 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
   * from a specific index ((you cant really do this since an object is not an array))
 * conditionals 
   * example: ```javascript user["likes birds"] = true;``` 
+* object methods to remember:
+  * object.assign()
+  * object.entries() - returns an array of the k:v pairs
+  * object.fromEntries() is the opposite of object.entries(), returns a new object from its k:v pairs 
 ### special misc:
 * format an array of numbers into phone number syntax // way to swap out each item of an array in place. this walks the array and swaps every index out 
 ```javascript

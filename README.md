@@ -425,7 +425,7 @@ function jobs(names, jobs){
 }
 console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
 ```
-* adding a key
+* adding a key value pair
   * using dot notation - 
   ```javascript 
   obj.key3 = "value3"; 
@@ -434,14 +434,15 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
   ```javascript 
   obj["key3"] = "value3"; 
   ```
-* adding a value to a specific key
-* removing a key
-* removing a value 
+* adding/changing a value to a specific key
+<!-- * removing a key
+* removing a value  -->
 * removing a k:v pair 
   * from the beginning
   * from the end
-  * from a specific index
+  * from a specific key
     * use ```javascript delete user.name``` or whatever the key is you're grabbing from the hypothetical user object
+  * from a specific index ((you cant really do this since an object is not an array))
 * conditionals 
   * example: ```javascript user["likes birds"] = true;``` 
 ### special misc:

@@ -380,7 +380,7 @@ some resources ((check my notion react wiki for more, esp career resources))
 * hooks -- allow you to use state in function components without needing to rewrite them as classes
 * class vs functional components  - classes declare and hold state, functions have state passed down to them as props
 * <a href="https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486" target="_blank" >react interview questions</a>
-  * more resources in my react wiki on notion
+
   
 <br>
 

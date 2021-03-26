@@ -403,16 +403,10 @@ some core principles:
 ``` javascript 
 return(num >>> 0).toString(2)
 ```
-* last item of an array 
+### arrays: 
+* grab last item of an array 
 ``` javascript 
 arr[arr.length - 1]
-```
-* making an object out of two arrays where {arr1[0] : arr2[0]} {key: value}
-```javascript
-function jobs(names, jobs){
-  return Object.assign(...names.map((k, i) => ({[k]: jobs[i]})))
-}
-console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
 ```
 * remove duplicates from an array by using spread syntax and the Set constructor 
 ```javascript
@@ -420,6 +414,14 @@ function set(arr){
   return [...new Set(arr)]
 }
 console.log(set([1,1,3]))
+```
+### objects:
+* making an object out of two arrays where {arr1[0] : arr2[0]} {key: value}
+```javascript
+function jobs(names, jobs){
+  return Object.assign(...names.map((k, i) => ({[k]: jobs[i]})))
+}
+console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
 ```
 
 * format an array of numbers into phone number syntax // way to swap out each item of an array in place. this walks the array and swaps every index out 

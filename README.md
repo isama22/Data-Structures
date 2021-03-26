@@ -438,8 +438,8 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
 <!-- * removing a key
 * removing a value  -->
 * removing a k:v pair 
-  * from the beginning
-  * from the end
+  <!-- * from the beginning
+  * from the end -->
   * from a specific key
     * use ```javascript delete user.name``` or whatever the key is you're grabbing from the hypothetical user object
   * from a specific index ((you cant really do this since an object is not an array))

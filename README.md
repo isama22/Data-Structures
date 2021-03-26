@@ -511,8 +511,6 @@ measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
 ## seperation of concerns 
 <a href="https://rkay301.medium.com/programming-fundamentals-part-5-separation-of-concerns-software-architecture-f04a900a7c50" target="_blank" >medium article on this</a>
 
-<br>
-
 ## agile development
 <a href="https://agilemanifesto.org/" target="_blank">agile manifesto</a>
 

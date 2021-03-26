@@ -427,6 +427,7 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
 ```
 * adding a key
   * using dot notation - ```javascript obj.key3 = "value3"; ```
+  * using square bracket notation - ```javascript obj["key3"] = "value3"; ```
 * adding a value to a specific key
 * removing a key
 * removing a value 

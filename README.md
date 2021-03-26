@@ -430,10 +430,12 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
 * removing a key
 * removing a value 
 * removing a k:v pair 
-  * use ```javascript delete obj.name``` or whatever the key is you're grabbing 
   * from the beginning
   * from the end
   * from a specific index
+    * use ```javascript delete user.name``` or whatever the key is you're grabbing from the hypothetical user object
+* conditionals 
+  * example: ```javascript user["likes birds"] = true;``` 
 ### special misc:
 * format an array of numbers into phone number syntax // way to swap out each item of an array in place. this walks the array and swaps every index out 
 ```javascript

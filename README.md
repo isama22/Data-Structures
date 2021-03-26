@@ -430,6 +430,7 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
 * removing a key
 * removing a value 
 * removing a k:v pair 
+  * use ```javascript delete obj.name``` or whatever the key is you're grabbing 
   * from the beginning
   * from the end
   * from a specific index

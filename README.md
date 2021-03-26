@@ -425,6 +425,14 @@ function jobs(names, jobs){
 }
 console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]))
 ```
+* adding a key
+* adding a value to a specific key
+* removing a key
+* removing a value 
+* removing a k:v pair 
+  * from the beginning
+  * from the end
+  * from a specific index
 ### special misc:
 * format an array of numbers into phone number syntax // way to swap out each item of an array in place. this walks the array and swaps every index out 
 ```javascript
@@ -496,17 +504,6 @@ measureDepth([[]]); //➞ 2
 measureDepth([[[]]]); // ➞ 3
 measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
 ```
-# objects 
-
-* adding a key
-* adding a value to a specific key
-* removing a key
-* removing a value 
-* removing a k:v pair 
-  * from the beginning
-  * from the end
-  * from a specific index
-<hr>
 
 # general resources 
 <a href="https://www.google.com/search?sxsrf=ALeKk028i-SDxWgxjCG2ljYyNCPjm7Z4ww:1612555300723&q=grokking+the+coding+interview&sa=X&ved=2ahUKEwi0-oTPxNPuAhUDGc0KHZ4aD9AQ1QIoBHoECAcQBQ&biw=1440&bih=685" target="_blank" >grokking the coding interview tab</a>

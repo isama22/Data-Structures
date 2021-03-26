@@ -470,15 +470,6 @@ console.log(simpleTimer(3599)); //➞ "00:59:59"
 ```javascript
 const sequence = Array.from({length: num}, (_, i) => i + 1)
 ```
-### methods: 
-* reduce needs an initial value to catch edge cases where there is no inital value
-
-  * (when you see a comma ', 0' at the end of reduce functions)
-  ```javascript
-  .reduce((a,b)=> a + b, 0)
-  ```
-  * 0 for addition, 1 for multiplication, or an empty string for concatenation
-
 * create a series of numbers within a range 
 ```javascript
 function  range(start, end) {
@@ -504,6 +495,15 @@ measureDepth([[]]); //➞ 2
 measureDepth([[[]]]); // ➞ 3
 measureDepth([[[[[[[[[[[]]]]]]]]]]]); // ➞ 11
 ```
+### methods: 
+* reduce needs an initial value to catch edge cases where there is no inital value
+
+  * (when you see a comma ', 0' at the end of reduce functions)
+  ```javascript
+  .reduce((a,b)=> a + b, 0)
+  ```
+  * 0 for addition, 1 for multiplication, or an empty string for concatenation
+
 
 # general resources 
 <a href="https://www.google.com/search?sxsrf=ALeKk028i-SDxWgxjCG2ljYyNCPjm7Z4ww:1612555300723&q=grokking+the+coding+interview&sa=X&ved=2ahUKEwi0-oTPxNPuAhUDGc0KHZ4aD9AQ1QIoBHoECAcQBQ&biw=1440&bih=685" target="_blank" >grokking the coding interview tab</a>

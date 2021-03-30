@@ -444,7 +444,7 @@ console.log(jobs(["Dennis", "Vera", "Mabel", "Annette", "Sussan"],["Butcher", "P
     * use ```javascript delete user.name``` or whatever the key is you're grabbing from the hypothetical user object
   * from a specific index ((you cant really do this since an object is not an array))
 * conditionals 
-  * example: ```javascript user["likes birds"] = true;``` 
+  * example: ```javascript user["likes birds"] = true;``` when checking for the existance of something
 * object methods to remember:
   * object.assign()
   * object.entries() - returns an array of the k:v pairs

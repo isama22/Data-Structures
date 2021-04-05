@@ -188,7 +188,7 @@ console.log(ll)
 ``` 
 
 ## Stacks 
-stacks order items in a first in first out immutable way 
+stacks order items in a last-in first-out immutable way 
 <br>
 
 ## Queue

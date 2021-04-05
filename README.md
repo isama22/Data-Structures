@@ -190,6 +190,8 @@ console.log(ll)
 ## Stacks 
 stacks order items in a last-in first-out immutable way 
 <br>
+as you add in new items, the older ones get pushed down underneath
+<br>
 
 ## Queue
 

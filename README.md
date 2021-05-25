@@ -401,6 +401,10 @@ some core principles:
 
 ## things to remember with vanilla js 
 * urnary operator ( + ) works similarly to parseInt()
+``` javascript 
+return +('a') 
+```
+can sometimes be just written as +a
 * number to binary 
 ``` javascript 
 return(num >>> 0).toString(2)
